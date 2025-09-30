@@ -50,6 +50,7 @@
 }
 
 .srchbox button{
+    all: unset;
      padding: 2vh;
     border-radius: 20px;
     border: 2px solid rgb(204, 20, 50);;
