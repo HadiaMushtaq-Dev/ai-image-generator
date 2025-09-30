@@ -54,8 +54,8 @@
      padding: 2vh;
     border-radius: 20px;
     border: 2px solid rgb(204, 20, 50);;
-    min-width: 120px;  
-  width: fit-content;
+    /* min-width: 100px;   */
+  width: auto;
     background-color: black;
     color:rgb(204, 20, 50);;
     font-size: 1.2rem;
