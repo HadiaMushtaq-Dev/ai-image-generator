@@ -16,11 +16,14 @@
     align-items: center;
     justify-content: center;
 }
+.header p{
+    width: 100%;
+}
 .header span{
     color: rgb(204, 20, 50);
 }
 .image img{
-    width: 30%;
+    width: 35%;
     margin: auto;
 }
 .img-loading{
@@ -38,7 +41,7 @@
     padding: 2vh;
     border-radius: 20px;
     border: 2px solid pink;
-    width: 40%;
+    width: 45%;
     background-color: black;
     color: pink;
     font-size: 1.2rem;
@@ -48,7 +51,7 @@
      padding: 2vh;
     border-radius: 20px;
     border: 2px solid rgb(204, 20, 50);;
-    width: 7%;
+    width: 9%;
     background-color: black;
     color:rgb(204, 20, 50);;
     font-size: 1.2rem;
