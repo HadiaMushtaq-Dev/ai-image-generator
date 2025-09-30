@@ -54,7 +54,7 @@
     border-radius: 20px;
     border: 2px solid rgb(204, 20, 50);;
     min-width: 120px;  
-  width: auto;
+  width: fit-content;
     background-color: black;
     color:rgb(204, 20, 50);;
     font-size: 1.2rem;
