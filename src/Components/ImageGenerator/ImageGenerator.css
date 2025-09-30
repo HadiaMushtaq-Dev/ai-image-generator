@@ -1,0 +1,152 @@
+.ai-image-generator{
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 80%;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header span{
+    color: rgb(204, 20, 50);
+}
+.image img{
+    width: 30%;
+    margin: auto;
+}
+.img-loading{
+    width: 100%;
+   text-align: center;
+}
+.srchbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 0 5vh 0;
+}
+.srchbox input{
+    padding: 2vh;
+    border-radius: 20px;
+    border: 2px solid pink;
+    width: 40%;
+    background-color: black;
+    color: pink;
+    font-size: 1.2rem;
+}
+
+.srchbox button{
+     padding: 2vh;
+    border-radius: 20px;
+    border: 2px solid rgb(204, 20, 50);;
+    width: 7%;
+    background-color: black;
+    color:rgb(204, 20, 50);;
+    font-size: 1.2rem;
+    margin: 0 2vh;
+    cursor: pointer;
+}
+.srchbox button:hover{
+    background-color: rgb(204, 20, 50);;
+    color: white;
+}
+.loader{
+    width: 50%;
+    margin: 2vh auto;
+}
+.load1{
+    height: 1vh;
+    width: 100%;
+    background-color:pink;
+    animation: loading 2s linear forwards 2;
+}
+.srchbox button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.download{
+    width: 45%;
+    padding: 1vh;
+    font-size: 1.2rem;
+    margin: 1vh 0 5vh 0;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.download:hover{
+    background-color: white;
+    color: black;
+}
+@keyframes loading {
+    0%{
+        width: 10%;
+    }
+    50%{
+        width: 40%;
+    }
+    100%{
+        width:100% ;
+    }
+}
+@media (max-width:1250px){
+    .srchbox button{
+   
+    width: 10%;
+}
+}
+@media (max-width:1050px){
+   .srchbox input{
+    
+    width: 50%;
+  
+}
+.image img{
+    width: 35%;
+    margin:2vh  auto;
+}
+}
+@media (max-width:980px){
+   .srchbox input{
+    
+    width: 60%;
+  
+}
+.image img{
+    width: 40%;
+    margin:2vh  auto;
+}
+  .srchbox button{
+   
+    width: 13%;
+}
+.header{
+    font-size: 2.5rem;
+}
+
+}
+@media(max-width:800px){
+    .srchbox button{
+ 
+  width: 15%;
+}
+}
+@media(max-width:685px){
+    .srchbox button{
+ 
+  width: 20%;
+}
+.image img{
+    width: 45%;
+    margin:3vh  auto;
+}
+}
