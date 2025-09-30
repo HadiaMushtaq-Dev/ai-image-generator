@@ -50,7 +50,7 @@ function ImageGenerator() {
         <input type="text" placeholder='Enter prompt to generate image' onChange={(e)=>setprompt(e.target.value)} value={prompt}/>
       
          <button onClick={handleGenerateImage} disabled={!load}>
-  {!load ? "Loading" : "Create"}
+  {!load ? "Loading" : "Generate"}
 </button>
       </div>
     </div>
